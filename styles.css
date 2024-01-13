@@ -1,0 +1,71 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-image: url('bg.jpg');
+    background-color: rgb(243, 255, 185);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: inline;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #02463ea8;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    align-self: safe;
+    
+    color: rgb(244, 168, 17);
+    font-weight: 500; /* Use the bold version of Oswald */
+}
+
+label {
+    margin-right: 5px;
+}
+
+input {
+    display: -ms-inline-flexbox;
+    align-self: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 30%;
+    max-width: 300px;
+    color: #3c2103;
+}
+
+button {
+    padding: 7.3px 20px;
+    background-color: #0c8a81;
+    color: #ffffff;
+    border: rgb(251, 147, 1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #40e0d042;
+}
+
+p {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #d5f00ae6;
+}
+
+label {
+    font-weight: 600;
+    font-size: 19px;
+    color: beige;
+}
+
+
+
+
+

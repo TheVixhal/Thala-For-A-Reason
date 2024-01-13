@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thala for a Reason</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <h1>Everything Happens For a Reason</h1>
+        <label for="userInput">Type Your Reason:</label>
+        <input type="text" id="userInput" />
+        <button onclick="checkConnection()">Check Thala</button>
+        <p id="output"></p>
+
+        <!-- Local videos elements -->
+        <video id="localVideoSeven" width="560" height="315" controls style="display: none;">
+            <source src="thala.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <video id="localVideoOther" width="560" height="315" controls style="display: none;">
+            <source src="maye.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
